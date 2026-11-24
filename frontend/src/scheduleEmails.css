@@ -1,0 +1,52 @@
+
+.scheduled-container {
+  flex: 1;
+  padding: 40px;
+  background: #f4f6fb;
+  min-height: 100vh;
+}
+
+.scheduled-container h1 {
+  font-size: 30px;
+  color: #171b35;
+  margin-bottom: 10px;
+}
+
+.scheduled-container p {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.email-table {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  overflow-x: auto;
+  box-shadow: 0 3px 12px #0000000d;
+}
+
+.email-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.email-table th,
+.email-table td {
+  padding: 18px;
+  border-bottom: 1px solid #eee;
+}
+
+.email-table th {
+  color: #536dfe;
+  background: #f8f9ff;
+}
+
+.email-table td {
+  color: #555;
+}
+
+.pending {
+  color: #d18b00 !important;
+  font-weight: bold;
+}

@@ -1,0 +1,54 @@
+
+.settings-container {
+  flex: 1;
+  padding: 40px;
+  background: #f4f6fb;
+  min-height: 100vh;
+}
+
+.settings-container h1 {
+  font-size: 30px;
+  color: #171b35;
+  margin-bottom: 10px;
+}
+
+.settings-container p {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.settings-card {
+  background: white;
+  max-width: 650px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #0000000d;
+}
+
+.settings-card h2 {
+  margin: 20px 0;
+  color: #30375c;
+}
+
+.settings-card label {
+  display: block;
+  margin: 15px 0 8px;
+  color: #444;
+}
+
+.settings-card input[type="text"],
+.settings-card input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+}
+
+.settings-card input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.settings-card button {
+  margin-top: 25px;
+  width: 100%;
+}

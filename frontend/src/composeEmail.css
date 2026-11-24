@@ -1,0 +1,53 @@
+
+.compose-container {
+  padding: 40px;
+  background: #f4f6fb;
+  min-height: 100vh;
+}
+
+.compose-container h1 {
+  font-size: 30px;
+  color: #171b35;
+  margin-bottom: 10px;
+}
+
+.compose-container > p {
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.email-form {
+  background: white;
+  max-width: 700px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #0000000d;
+}
+
+.email-form label {
+  display: block;
+  margin: 18px 0 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.email-form input,
+.email-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  font-size: 15px;
+  outline: none;
+}
+
+.email-form input:focus,
+.email-form textarea:focus {
+  border-color: #536dfe;
+}
+
+.email-form button {
+  margin-top: 25px;
+  width: 100%;
+  font-size: 16px;
+}
