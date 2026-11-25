@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import ComposeEmail from './composeEmail'
 import './App.css'
 
-const API_URL = 'http://localhost:5000/api/emails'
+const API_URL = 'https://reachinbox-email-scheduler-46qd.onrender.com'
 
 function Dashboard({ emails }) {
   const scheduled = emails.filter(email => email.status === 'scheduled')
